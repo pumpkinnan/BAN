@@ -14,7 +14,7 @@ cd data && python generate_input_list.py
 cd ..
 ```
 ## Usage
-* Compile TF Operators
+* Compile TF Operators  
 Refer to [PointNet++](https://github.com/charlesq34/pointnet2)
 * Training
 ```
@@ -33,4 +33,4 @@ python test.py
 python eval_iou_accuracy.py
 ```
 ## Acknowledgemets
-This code largely benefits from following repositories: [PointNet++](https://github.com/charlesq34/pointnet2), [SGPN](https://github.com/laughtervv/SGPN), [DGCNN](https://github.com/WangYueFt/dgcnn), [DiscLoss-tf](https://github.com/hq-jiang/instance-segmentation-with-discriminative-loss-tensorflow), [ASIS](https://github.com/WXinlong/ASIS)
+This code largely benefits from following repositories: [PointNet++](https://github.com/charlesq34/pointnet2), [SGPN](https://github.com/laughtervv/SGPN), [DGCNN](https://github.com/WangYueFt/dgcnn), [DiscLoss-tf](https://github.com/hq-jiang/instance-segmentation-with-discriminative-loss-tensorflow) and [ASIS](https://github.com/WXinlong/ASIS)
