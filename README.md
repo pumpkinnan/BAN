@@ -1,4 +1,5 @@
 # Bi-Directional Attention for Joint Instance and Semantic Segmentation in Point Clouds(BAN)
+The full paper is available at: [https://arxiv.org/abs/2003.05420](https://arxiv.org/abs/2003.05420)
 ## Dependencies
 The code has been tested with Python 3.7 on Ubuntu 16.04.
 * tensorflow 1.14
