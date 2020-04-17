@@ -27,7 +27,7 @@ python estimate_mean_ins_size.py
 ```
 * Test
 ```
-python test.py
+python test.py --verbose
 ```
 * Evaluation
 ```
