@@ -9,18 +9,18 @@ from IPython import embed
 
 import os
 import sys
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ROOT_DIR = os.path.dirname(os.path.dirname(BASE_DIR))
-sys.path.append(BASE_DIR)
-sys.path.append(ROOT_DIR)
-sys.path.append(os.path.join(ROOT_DIR, 'utils'))
 from models.ASIS import provider
 from utils import tf_util
 from model import *
 from utils.test_utils import *
 from utils.clustering import cluster
 import indoor3d_util
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR = os.path.dirname(os.path.dirname(BASE_DIR))
+sys.path.append(BASE_DIR)
+sys.path.append(ROOT_DIR)
+sys.path.append(os.path.join(ROOT_DIR, 'utils'))
+
 np.random.seed(0)
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', type=int, default=0, help='GPU to use [default: GPU 0]')
@@ -60,7 +60,7 @@ NEW_NUM_CLASSES = 13
 
 HOSTNAME = socket.gethostname()
 
-ROOM_PATH_LIST = [os.path.join(ROOT_DIR, line.rstrip()) for line in open(os.path.join(ROOT_DIR, FLAGS.input_list))]
+ROOM_PATH_LIST = [os.path.join(BASE_DIR, line.rstrip()) for line in open(os.path.join(BASE_DIR, FLAGS.input_list))]
 len_pts_files = len(ROOM_PATH_LIST)
 
 
