@@ -7,7 +7,7 @@ The full paper is available at: [https://arxiv.org/abs/2003.05420](https://arxiv
 
 In this work, we build a Bi-Directional Attention module on backbone neural networks for 3D point cloud perception, which uses similarity matrix measured from features for one task to help aggregate non-local information for the other task, avoiding the potential feature exclusion and task conflict. 
 
-![image-20200602002623064](.\network)
+![image-20200602002623064](.\network.png)
 
 ## Performance on 3D pointcloud datasets
 
@@ -37,7 +37,7 @@ Table 3. Ins. and Sem. segmentation results on **SceneNN** dataset.
 
 Figure 1.  Instance and semantic segmentation in point clouds using BAN. (a) Results on the S3DIS dataset, (b) Results on the PartNet dataset.
 
-![image-20200602001233283](.\result)
+![image-20200602001233283](.\result.png)
 
 Please refer to our paper for more results.
 
