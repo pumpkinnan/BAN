@@ -16,6 +16,7 @@ Table 1. Ins. and Sem. segmentation results on **S3DIS** dataset.
 | PointNet++ |   49.6   |   53.4   |   62.7   |   45.8   |   69.0   |   58.2   |   85.9   |
 |    ASIS    |   51.2   |   55.1   | **63.6** |   47.5   |   70.1   |   59.3   |   86.2   |
 |    Ours    | **52.1** | **56.2** |   63.4   | **51.0** | **71.7** | **60.8** | **87.0** |
+
 Table 2. Ins. and Sem. segmentation results on **PartNet** dataset.
 
 |   Method   |   mCov   |  mWCov   |  mPrec   |   mRec   |   mAcc   |   mIoU   |   oAcc   |
@@ -23,6 +24,7 @@ Table 2. Ins. and Sem. segmentation results on **PartNet** dataset.
 | PointNet++ |   42.0   |   43.1   |   51.2   |   44.7   |   53.4   |   43.4   |   78.4   |
 |    ASIS    |   39.3   |   40.2   |   49.9   |   42.8   |   50.6   |   40.2   |   76.7   |
 |    Ours    | **42.7** | **44.2** | **52.8** | **45.3** | **56.1** | **44.9** | **80.3** |
+
 Table 3. Ins. and Sem. segmentation results on **SceneNN** dataset.
 
 |   Method   |   mCov   |  mWCov   |  mPrec   |  mRec  |   mAcc   |   mIoU   |   oAcc   |
