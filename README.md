@@ -76,5 +76,10 @@ python test.py --verbose
 ```
 python eval_iou_accuracy.py
 ```
+
+## Common Issues
+
+Coming soon.
+
 ## Acknowledgemets
 This code largely benefits from following repositories: [PointNet++](https://github.com/charlesq34/pointnet2), [SGPN](https://github.com/laughtervv/SGPN), [DGCNN](https://github.com/WangYueFt/dgcnn), [DiscLoss-tf](https://github.com/hq-jiang/instance-segmentation-with-discriminative-loss-tensorflow) and [ASIS](https://github.com/WXinlong/ASIS)
